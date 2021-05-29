@@ -9,8 +9,9 @@ const App=()=> {
   const [data,setData]=useState([])
 
   const FilterApi=()=>{
-    var res = Designation.map(x => Object.assign(x, Employe.find(y => y.EmpId == x.EmpId)));
-    var result=res.map(x => Object.assign(x, Salary.find(y => y.EmpId == x.EmpId)));
+    var res = Employe.map(x => Object.assign(x, Salary.find(y => y.EmpId == x.EmpId)));
+    var res1 = res.map(x => Object.assign(x, Designation.find(y => y.EmpId == x.EmpId)));
+    var result=Designation.map(x => Object.assign(x, res1.find(y => y.EmpId == x.EmpId)));
     setData(result)
   }
 
@@ -25,11 +26,10 @@ const App=()=> {
  <Table striped bordered hover style={{marginTop:"20px"}}>
   <thead>
     <tr>
-      <th>Emp ID</th>
+      <th>Reporting Manager</th>
       <th>First Name</th>
       <th>Last Name</th>
-      <th>Username</th>
-      <th>Reporting Manager</th>
+      <th>Username</th>      
       <th>Current Salary</th>
       <th>Last Revision Date</th>
       <th>Current Designation</th>
@@ -39,11 +39,10 @@ const App=()=> {
   <tbody>
     {data.map((val,index)=>
     <tr>
-      <td>{val.EmpId}</td> 
+      <td>{val.ReportingManager}</td> 
       <td>{val.Firstname}</td> 
       <td>{val.Lastname}</td>
-      <td>{val.Firstname+" "+val.Lastname}</td>
-      <td>{val.ReportingManager}</td>
+      <td>{val.Firstname+" "+val.Lastname}</td>     
       <td>{val.Salary}</td>
       <td>{val.RevisionDate}</td>
       <td>{val.Designation}</td>
