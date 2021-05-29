@@ -1,0 +1,62 @@
+[
+    {
+        "SalaryId": 1100001,
+        "EmpId": 100004,
+        "Salary": 10000,
+        "CurrencyType": "INR",
+        "EffectiveFrom": "2021-03-01",
+        "EffectiveTo": null,
+        "RevisionDate": "2021-03-01",
+        "IsCurrent": "Y",
+        "IsActive": "Y",
+        "Status": "In force"
+    },
+	{
+        "SalaryId": 1100002,
+        "EmpId": 100005,
+        "Salary": 20000,
+        "CurrencyType": "INR",
+        "EffectiveFrom": "2021-04-01",
+        "EffectiveTo": null,
+        "RevisionDate": "2021-04-01",
+        "IsCurrent": "Y",
+        "IsActive": "Y",
+        "Status": "In force"
+    },
+	{
+        "SalaryId": 1100003,
+        "EmpId": 100006,
+        "Salary": 12000,
+        "CurrencyType": "INR",
+        "EffectiveFrom": "2021-04-01",
+        "EffectiveTo": null,
+        "RevisionDate": "2021-04-01",
+        "IsCurrent": "Y",
+        "IsActive": "Y",
+        "Status": "In force"
+    },
+	{
+        "SalaryId": 1100004,
+        "EmpId": 100007,
+        "Salary": 8000,
+        "CurrencyType": "INR",
+        "EffectiveFrom": "2021-04-01",
+        "EffectiveTo": null,
+        "RevisionDate": "2021-04-01",
+        "IsCurrent": "Y",
+        "IsActive": "Y",
+        "Status": "In force"
+    },
+	{
+        "SalaryId": 1100005,
+        "EmpId": 100008,
+        "Salary": 15000,
+        "CurrencyType": "INR",
+        "EffectiveFrom": "2021-04-01",
+        "EffectiveTo": null,
+        "RevisionDate": "2021-04-01",
+        "IsCurrent": "Y",
+        "IsActive": "Y",
+        "Status": "In force"
+    }
+]

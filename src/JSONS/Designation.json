@@ -1,0 +1,57 @@
+[
+    {
+        "DesignationId": 9001,
+		"EmpId": 100004,
+        "EmpLevel": "1A",
+        "Designation": "Software Engineer Trainee",
+        "EffectiveFrom": "2021-03-01",
+        "IsActive": "Y",
+        "Status": "Used",
+        "Roles": null,
+        "Responsibilities": null
+    },
+    {
+        "DesignationId": 9002,
+		"EmpId": 100005,
+        "EmpLevel": "1B",
+        "Designation": "Software Engineer",
+        "EffectiveFrom": "2021-04-01",
+        "IsActive": "Y",
+        "Status": "Used",
+        "Roles": null,
+        "Responsibilities": null
+    },
+    {
+        "DesignationId": 9003,
+		"EmpId": 100006,
+        "EmpLevel": "2",
+        "Designation": "Senior Software Engineer",
+        "EffectiveFrom": "2021-04-05",
+        "IsActive": "Y",
+        "Status": "Used",
+        "Roles": null,
+        "Responsibilities": null
+    },
+    {
+        "DesignationId": 9004,
+		"EmpId": 100007,
+        "EmpLevel": "1B",
+        "Designation": "Software Engineer",
+        "EffectiveFrom": "2021-04-15",
+        "IsActive": "Y",
+        "Status": "Used",
+        "Roles": null,
+        "Responsibilities": null
+    },
+    {
+        "DesignationId": 9005,
+		"EmpId": 100008,
+        "EmpLevel": "1B",
+        "Designation": "Software Engineer",
+        "EffectiveFrom": "2021-04-10",
+        "IsActive": "Y",
+        "Status": "Used",
+        "Roles": null,
+        "Responsibilities": null
+    }
+]
